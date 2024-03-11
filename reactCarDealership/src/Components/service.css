@@ -1,0 +1,71 @@
+/* App.css */
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8; /* Light gray background color */
+  }
+  
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px; /* Gap between each service card */
+  }
+  
+  .service-card {
+    width: calc(33.33% - 200px); /* Three cards in each row with gap */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #fff; /* White card background color */
+    box-shadow: 0px 4px 6px rgba(28, 28, 28, 0.1); /* Box shadow for card */
+    transition: all 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced box shadow on hover */
+    background-color: #555; /* Dark gray card background color on hover */
+  }
+  
+  .service-card img {
+    width: 90%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth image scale transition on hover */
+  }
+  
+  .service-card:hover img {
+    transform: scale(1.1); /* Scale image on hover */
+  }
+  
+  .service-name {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold; /* Increase font weight for service names */
+    color: #000; /* Black text color by default */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .service-card:hover .service-name {
+    color: #fff; /* White text color on hover */
+  }
+  
+  .service-description {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #000; /* Black text color by default */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .service-card:hover .service-description {
+    color: #fff; /* White text color on hover */
+  }
+  
