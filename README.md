@@ -41,10 +41,12 @@ This is a car dealership website built using the MERN (MongoDB, Express.js, Reac
 4. Start the development server:
 
 - For the frontend:
+
     cd client
     npm start
 
 - For the backend:
+
     cd server
     npm start
 
