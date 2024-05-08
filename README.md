@@ -19,15 +19,18 @@ This is a car dealership website built using the MERN (MongoDB, Express.js, Reac
 
 ## Installation
 
-1. Clone the repository:   
+1. Clone the repository:
+   
   git clone https://github.com/MOHAMEDNAZEER07/car-dealership.git
 
 
 2. Navigate to the project directory:
+   
   cd car-dealership
 
 
 3. Install dependencies for the frontend and backend:
+
   cd client
   npm install
   cd ..
