@@ -45,7 +45,7 @@ app.post('/signup', async (req, res) => {
 app.post('/signin', async (req, res) => {
   try {
     const { email, password } = req.body;
-    const user = await User.findOne({ email: { $eq: email } });
+   const user = await User.findOne({ email: email.toString() });
     if (!user) {
       return res.status(401).json({ message: 'Invalid email or password' });
     }
