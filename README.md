@@ -31,11 +31,17 @@ This is a car dealership website built using the MERN (MongoDB, Express.js, Reac
 
 3. Install dependencies for the frontend and backend:
 
+
   cd client
+  
   npm install
+  
   cd ..
+  
   cd server
+  
   npm install
+  
 
 
 4. Start the development server:
